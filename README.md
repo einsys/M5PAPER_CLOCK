@@ -1,5 +1,7 @@
 # Overview
 
+![alt text](/img/img.png)
+
 - This is a PlatformIO clock project based on the M5Paper device (https://github.com/m5stack/M5EPD).
 
 - The base code used in this project is from M5-Clock (https://github.com/azw413/M5-Clock). Weather features using APIs were removed, leaving only the clock and built-in sensor information.
