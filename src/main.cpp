@@ -254,9 +254,9 @@ void loop() {
             refreshed = true;
         } else {
             canvas.pushCanvas(0, 0, UPDATE_MODE_DU);
-            refreshed = false;
+            if (current_time.min != 0) refreshed = false;
         }
-
+        Serial.println(refreshed);
         // Sync at 6:00 AM
         if (cleared || (current_time.hour == 6 && current_time.min == 0)) sync();
     }
