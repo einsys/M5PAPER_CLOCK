@@ -4,7 +4,7 @@
 
 - This is a PlatformIO clock project based on the M5Paper device (https://github.com/m5stack/M5EPD).
 
-- The base code used in this project is from M5-Clock (https://github.com/azw413/M5-Clock). Weather features using APIs were removed, leaving only the clock and built-in sensor information.
+- The base code used in this project is from M5-Clock by awhaley (https://github.com/azw413/M5-Clock). Weather features using APIs were removed, leaving only the clock and built-in sensor information.
 
 - Initially, the goal was to build a clock that could operate for several months on battery power alone. However, during development, current measurements showed that the time required to wake from sleep (~3100ms, average 101.6mA) was overwhelmingly longer than the time to read sensor values and refresh the screen (~800ms, average 165.4mA). This made optimization meaningless. To achieve one month of battery life, the screen refresh interval would need to be increased to over 5 minutes, which compromises practicality. As such, the project was finalized assuming continuous external power supply.
 
