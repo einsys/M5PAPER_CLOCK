@@ -17,3 +17,10 @@
 - To reduce screen flicker discomfort, the default update mode is set to UPDATE_MODE_DU. To remove ghosting, the screen refreshes in UPDATE_MODE_GC16 every hour.
 
 - The original code’s TTF fonts were removed and replaced with large bitmap fonts. For optimization, only characters required for screen display are included.
+
+# Fonts
+
+- All fonts used in this project are free fonts.
+  - Naver - Nanum Square Round, Extra Bold (https://hangeul.naver.com/font)
+  - Hack (https://github.com/source-foundry/Hack)
+  - GNU FreeFont - Mono Bold (https://github.com/opensourcedesign/fonts/tree/master/gnu-freefont_freemono)
